@@ -6,7 +6,7 @@ function shortcut(s1, s2) {
   }
 
   // Get the initial letters of the input strings and convert to uppercase
-  const initialLetters = s1.charAt(0).toUpperCase() + s2.charAt(0).toUpperCase();
+  const initialLetters = s1.charAt(0) + s2.charAt(0);
 
   return initialLetters;
 	
